@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Retro';
+    src: url('fonts/RetroCool-Regular.ttf') format('truetype');
+}
+
+body {
+    background-image: url('background.gif');
+    background-size: cover;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Retro;
+    font-size: 100px;
+    margin-top: 0;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    font-family: Arial;
+    font-weight: lighter;
+    font-size: 34px;
+    margin-top: 0;
+    margin: 10px 0; 
+    color: #ffffff;
+    box-sizing: border-box;
+    width: 495px;
+    height: 100px;
+    border: 10px solid #ffffff;
+    border-radius: 100px;
+    background-color: #ffffff00;
+}
+
+
+  .imagens {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+img {
+    margin-right: 50px;
+}
